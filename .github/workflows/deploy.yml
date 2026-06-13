@@ -18,7 +18,7 @@ jobs:
           port: ${{ secrets.PORT }}
 
           script: |
-            cd /home/yourcpaneluser/apps/myproject
+            cd /home/trainingcloudexp/apps/myproject
 
             git fetch origin
             git reset --hard origin/main
