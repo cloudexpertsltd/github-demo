@@ -20,5 +20,8 @@ jobs:
           script: |
             cd /home/trainingcloudexp/apps/myproject
 
+            git config --global --add safe.directory /home/trainingcloudexp/apps/myproject
+
             git fetch origin
             git reset --hard origin/main
+            git clean -fd
