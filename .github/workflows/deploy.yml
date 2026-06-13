@@ -20,5 +20,5 @@ jobs:
           script: |
             cd /home/trainingcloudexp/apps/myproject
 
-            git fetch origin
-            git reset --hard origin/main
+            git fetch origin master
+            git reset --hard origin/master
